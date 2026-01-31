@@ -1,0 +1,135 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DigiParamarsh - AI-assisted telemedicine platform for rural healthcare access">
+    <title>DigiParamarsh - Healthcare for Everyone, Everywhere</title>
+    <!-- Standalone: use relative path. Django: replace with {% load static %} and href="{% static 'css/style.css' %}" -->
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-content container">
+                <h1 class="logo">&#127973; DigiParamarsh</h1>
+                <ul class="nav-links">
+                    <li><a href="#problem">Problem</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#cta">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Healthcare Access for Rural India</h1>
+                    <p class="hero-subtitle">Connect with doctors instantly. Get prescriptions. Order medicines. All from your phone.</p>
+                    <div class="hero-buttons">
+                        <a href="#cta" class="btn btn-primary">Start Consultation</a>
+                        <a href="#solution" class="btn btn-secondary">Check Symptoms</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem" class="section section-white">
+            <div class="container">
+                <h2 class="section-title">The Problem We're Solving</h2>
+                <div class="grid grid-3">
+                    <div class="card card-center">
+                        <div class="card-icon">&#128657;</div>
+                        <h3>Long Travel Distances</h3>
+                        <p>Rural patients travel 20-50 km to reach the nearest hospital, spending time and money.</p>
+                    </div>
+                    <div class="card card-center">
+                        <div class="card-icon">&#9200;</div>
+                        <h3>Limited Availability</h3>
+                        <p>Doctors are not always available when needed, leading to delayed treatment.</p>
+                    </div>
+                    <div class="card card-center">
+                        <div class="card-icon">&#128176;</div>
+                        <h3>High Costs</h3>
+                        <p>Travel expenses and consultation fees add up, making healthcare unaffordable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section id="solution" class="section section-gray">
+            <div class="container">
+                <h2 class="section-title">Our Solution</h2>
+                <div class="solution-content">
+                    <p class="solution-text">DigiParamarsh brings healthcare to your doorstep through AI-powered telemedicine. Consult with qualified doctors via video, get digital prescriptions, and order medicines or lab tests — all from your smartphone.</p>
+                    <div class="solution-cards">
+                        <div class="solution-card">
+                            <div class="solution-card-icon">&#129302;</div>
+                            <h4>AI Symptom Check</h4>
+                            <p>Get instant doctor recommendations</p>
+                        </div>
+                        <div class="solution-card">
+                            <div class="solution-card-icon">&#128104;&#8205;&#9877;&#65039;</div>
+                            <h4>Video Consultations</h4>
+                            <p>Talk to doctors face-to-face</p>
+                        </div>
+                        <div class="solution-card">
+                            <div class="solution-card-icon">&#128138;</div>
+                            <h4>Medicine Delivery</h4>
+                            <p>Order prescribed medicines online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section section-white">
+            <div class="container">
+                <h2 class="section-title">Key Features</h2>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3 class="feature-title">&#128241; Easy to Use</h3>
+                        <p>Simple interface designed for users with minimal tech experience. Large buttons and clear instructions.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="feature-title">&#127760; Works on Low Bandwidth</h3>
+                        <p>Optimized for slow internet connections. Video calls work even on 2G networks.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="feature-title">&#128203; Digital Prescriptions</h3>
+                        <p>All prescriptions are stored digitally and linked to your consultation history.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="feature-title">&#128274; Secure & Private</h3>
+                        <p>Your medical data is encrypted and stored securely. Only you and your doctor can access it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="section section-cta">
+            <div class="container">
+                <h2 class="cta-title">Ready to Get Started?</h2>
+                <p class="cta-subtitle">Join thousands of patients who are getting quality healthcare from home.</p>
+                <a href="#" class="btn btn-cta">Start Your Consultation Now</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-main">© 2026 DigiParamarsh. Built for Rural Healthcare Access.</p>
+                <p class="footer-note">This is a prototype for demonstration purposes.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
