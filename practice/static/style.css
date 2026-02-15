@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /**
  * DigiParamarsh Homepage - Styles
  * Django: Place this file in your app's static/css/ or project static/css/

@@ -6,7 +6,7 @@ def home(request):
     return render(request,'index.html')
 
 def shop(request):
-    return HttpResponse("Aa gye muh uthake fir se paise hai tere pe Gareeb ")
+    return render(request,'shop.html')
 
 def Contact(request):
     return HttpResponse("9192 baaki aap khud samajhdar ho")
